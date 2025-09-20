@@ -30,7 +30,7 @@ function Vendor() {
   const handleLogout = () => {
     localStorage.removeItem("vendor");
     localStorage.removeItem("token");
-    navigate("/vendor/login");
+    navigate("/login");
   };
 
   // Navigate to update status page
