@@ -5,7 +5,7 @@ import App from './App.jsx'
 import { BrowserRouter as Router } from 'react-router-dom'
 import axios from 'axios'
 
-axios.defaults.baseURL = 'http://localhost:8088/api/v1/'
+axios.defaults.baseURL = 'https://multi-vendor-eyl5.onrender.com/api/v1/'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
